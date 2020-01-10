@@ -9,7 +9,6 @@ class Example
         # конвертируем путь к файлам в строку
         file1 = file1.to_s
         file2 = file2.to_s
-        file3 = file3.to_s
 
         # проверяем существование исходных файлов 
         if File.exist?(file1) && File.exist?(file2)
